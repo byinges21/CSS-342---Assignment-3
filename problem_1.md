@@ -25,6 +25,4 @@ In addition, [this function](https://github.com/a-teaching-goose/2024-summer-342
 
 Once the LRU code is finished, read [this](https://github.com/a-teaching-goose/2024-summer-342-hw-3/blob/main/test/problem_1/unit_test_library.cpp) test where your LRU is used in an real-life example of a library. In this library, there's multiple floors to store books, and the higher the floor, the longer it takes to retrieve the book. To help speed up the retrieve time by observing the fact that popular books are usually borrowed closely in time, there's a book shelf at the front desk to keep those recently returned book. This book shelf has limited capacity, so if it's full, the least recently used book will be put back to a shelf in its floor based on the book name. Here's a diagram:
 
-<img width="50%" alt="image" src="https://github.com/user-attachments/assets/07f35699-4a16-40de-86bf-28c5f89c9f34">
-
 Once your LRU code is done, the library test will pass too. All your work is in the LRU file. Nothing to write in the library file but it'd be full to read and see how it works.
